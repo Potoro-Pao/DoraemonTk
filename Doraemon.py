@@ -1,11 +1,10 @@
 from tkinter import *
-#from tkinter.colorchooser import askcolor
+
 
 tk=Tk()
 canvas=Canvas(tk,width=500,height=500)
 tk.title("Doraemon")
-#D=askcolor()
-#M=askcolor()
+
 
 canvas.create_oval(250,350,195,420,fill='#57dfea')#legL
 canvas.create_oval(245,350,300,420,fill='#57dfea')#legR
@@ -56,15 +55,9 @@ canvas.create_line(250,247,250,260)
 
 
 
-#canvas.create_oval(293,237,320,270,fill='#57dfea')
-
-#canvas.create_oval(300,239,330,280,fill='#57dfea')
-
-#canvas.create_oval(310,250,340,300,fill='#57dfea')
 
 
 
-#print(D,M)
 canvas.pack()
 mainloop()
 
