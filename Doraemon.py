@@ -3,7 +3,7 @@ from tkinter import *
 
 tk=Tk()
 canvas=Canvas(tk,width=500,height=500)
-tk.title("Revenge:Doraemon")
+tk.title("Doraemon")
 #D=askcolor()
 #M=askcolor()
 
